@@ -13,7 +13,9 @@ A modern booking system frontend built with Next.js, React, and TypeScript that 
 
 ## 📋 Prerequisites
 
-- Node.js 18+ installed
+Run `nvm use` from the repository root before installing dependencies.
+
+- Node.js 24.22.1 or a later patched 24.x release installed
 - Backend API running on `http://localhost:3000` (see backend documentation)
 - Google OAuth credentials configured in the backend
 
@@ -23,7 +25,7 @@ A modern booking system frontend built with Next.js, React, and TypeScript that 
 1. **Install dependencies**
    ```bash
    cd frontend
-   npm install
+   npm ci
    ```
 
 2. **Start the development server**

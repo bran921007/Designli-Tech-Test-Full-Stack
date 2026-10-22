@@ -27,8 +27,10 @@
 
 ## Project setup
 
+Use Node.js 24.22.1 or a later patched 24.x release. Run `nvm use` from the repository root before installing dependencies.
+
 ```bash
-$ npm install
+$ npm ci
 ```
 
 ## Compile and run the project
