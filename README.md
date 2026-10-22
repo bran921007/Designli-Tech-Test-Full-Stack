@@ -29,7 +29,9 @@ Thanks for reviewing my solution for Designli’s Full Stack Developer Challenge
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/en/) (v18+)
+Run `nvm use` from the repository root to select the pinned Node.js version.
+
+- [Node.js](https://nodejs.org/en/) (24.22.1 or a later patched 24.x release)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Auth0](https://auth0.com/) account (with Google connection)
 - Google Cloud Project (OAuth setup & Calendar API enabled)
@@ -39,7 +41,7 @@ Thanks for reviewing my solution for Designli’s Full Stack Developer Challenge
 1. **Install dependencies**:
     ```bash
     cd backend
-    npm install
+    npm ci
     ```
 
 2. **Configure environment**: Create `.env`:
@@ -71,7 +73,7 @@ Backend runs on `http://localhost:3000`.
 1. **Install dependencies**:
     ```bash
     cd frontend
-    npm install
+    npm ci
     ```
 
 2. **Start frontend server**:
